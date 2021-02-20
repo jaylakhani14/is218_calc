@@ -3,7 +3,10 @@ import unittest
 from Calculator import Calculator
 
 
-class CalculatorTestCase(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
+
+    def setUp(self) -> None:
+        calculator = Calculator()
 
     def test_instantiate_calculator(self):
         calculator = Calculator()
