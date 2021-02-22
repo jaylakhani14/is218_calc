@@ -3,7 +3,7 @@ from src.src.CsvReader import CsvReader, ClassFactory
 from src.calculator.calculator import Calculator
 from pprint import pprint
 
-class CSVTestCase(unittest.TestCase):
+class MyCSVTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
         self.calculator = Calculator()
