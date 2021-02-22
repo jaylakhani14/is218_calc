@@ -1,5 +1,2 @@
-import math
-
-
-def square(a, b):
-    return math.pow(a, b)
+def square(a):
+    return a ** 2

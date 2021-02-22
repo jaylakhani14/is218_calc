@@ -1,5 +1,2 @@
-import math
-
-
-def squareroot(a, b):
-    return math.pow(a, 1 / b)
+def square_root(a):
+    return a ** 0.5
