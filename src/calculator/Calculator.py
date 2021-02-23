@@ -1,9 +1,9 @@
-from src.operations.addition import addition
-from src.operations.subtraction import subtraction
-from src.operations.multiplication import multiplication
-from src.operations.division import division
-from src.operations.square import square
-from src.operations.square_root import square_root
+from src.calculator.operations.addition import addition
+from src.calculator.operations.subtraction import subtraction
+from src.calculator.operations.multiplication import multiplication
+from src.calculator.operations.division import division
+from src.calculator.operations.square import square
+from src.calculator.operations.square_root import square_root
 
 class Calculator:
     result = 0
