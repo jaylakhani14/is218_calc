@@ -1,6 +1,6 @@
 from src.operations.addition import addition
 from src.operations.subtraction import subtraction
-from src.operations.multiply import multiplication
+from src.operations.multiplication import multiplication
 from src.operations.division import division
 from src.operations.square import square
 from src.operations.squareroot import square_root
