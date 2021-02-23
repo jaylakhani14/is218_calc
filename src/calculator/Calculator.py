@@ -5,6 +5,7 @@ from src.calculator.operations.division import division
 from src.calculator.operations.square import square
 from src.calculator.operations.square_root import square_root
 
+
 class Calculator:
     result = 0
 
