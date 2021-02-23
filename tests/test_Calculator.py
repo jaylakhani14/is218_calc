@@ -1,6 +1,6 @@
 import unittest
 
-from src.calculator.Calculator import Calculator
+from src.calculator.calculator import Calculator
 from src.CsvReader.CsvReader import CsvReader
 from pprint import pprint
 
