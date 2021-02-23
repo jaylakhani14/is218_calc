@@ -1,5 +1,6 @@
 def division(a, b):
-    return a / b
+    try:
+        return a / b
 
-except ZeroDivisionError as err:
+    except ZeroDivisionError as err:
         print("run-time error:", err)
