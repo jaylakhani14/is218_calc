@@ -2,6 +2,7 @@ import unittest
 
 from src.calculator import Calculator
 from src.CsvReader.CsvReader import CsvReader
+from pprint import pprint
 
 class CalculatorTestCase(unittest.TestCase):
     def setUp(self) -> None:
@@ -55,3 +56,6 @@ class CalculatorTestCase(unittest.TestCase):
 
     def test_result_is_zero_calculator(self):
         self.assertEqual(self.calculator.result, 0)
+
+if __name__ == '__main__':
+    unittest.main()
