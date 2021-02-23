@@ -1,6 +1,8 @@
 import unittest
 
 from src.calculator.calculator import Calculator
+from src.CsvReader.CsvReader import CsvReader
+
 
 
 class CalculatorTestCase(unittest.TestCase):
@@ -39,6 +41,12 @@ class CalculatorTestCase(unittest.TestCase):
             result = float(row['Result'])
             self.assertEqual(self.calculator.divi(row['Value 1'], row['Value 2']), result)
             self.assertEqual(self.calculator.result, result)
+
+    def test_divide_zero(self):
+        self.assertRaises(ZeroDivisionError, self.calculator.divi(0, 0))
+
+    def test_result_is_zero_calculator(self):
+        self.assertEqual(self.calculator.result, 0)
 
     def test_square_method_calculator(self):
         test_data = CsvReader("../tests/Data/Unit Test square.csv").data
