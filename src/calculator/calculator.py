@@ -15,22 +15,22 @@ class Calculator:
         self.result = addition(a, b)
         return self.result
 
-    def sub(self, a, b):
+    def subtract(self, a, b):
         self.result = subtraction(a, b)
         return self.result
 
-    def mult(self, a, b):
+    def multiply(self, a, b):
         self.result = multiplication(a, b)
         return self.result
 
-    def divi(self, a, b):
+    def divide(self, a, b):
         self.result = division(a, b)
         return self.result
 
-    def squ(self, a):
+    def square(self, a):
         self.result = square(a)
         return self.result
 
-    def root(self, a):
+    def square_root(self, a):
         self.result = square_root(a)
         return self.result
